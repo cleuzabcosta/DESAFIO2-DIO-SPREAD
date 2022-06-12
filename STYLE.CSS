@@ -1,0 +1,173 @@
+* {
+ text-decoration: none;
+}
+
+body {
+ background: #f5f5f5;
+ margin-top: 33px;
+}
+
+.principal {
+ display: flex;
+ height: 80vh;
+ width: 100vh;
+}
+
+.celular {
+ margin-left: 285px;
+}
+
+.tela-celular {
+ border-radius: 30px;
+ margin-left: 40px;
+ margin-right: 40px;
+ min-height: 580px;
+}
+
+.box {
+ align-self: center;
+}
+
+.nome {
+ height: 50px;
+}
+
+.foto-perfil {
+ border-radius: 80px;
+ height: 90px;
+ align-items: center;
+ margin-top: 15px;
+}
+
+.login {
+ background: #1E90FF;
+ display: flex;
+ height: 30px;
+ border-radius: 4px;
+ color: white;
+ width: 200px;
+ align-items: center;
+ justify-content: center;
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
+
+.voce {
+ color: grey;
+ height: 0px;
+ margin: auto;
+ margin-top: 10px;
+}
+
+.conta {
+ color: #1E90FF;
+ display: flex;
+ justify-content: center;
+}
+
+.alternar {
+ color: #1E90FF;
+}
+
+.inscreva {
+ color: #1E90FF
+}
+
+.reunidos1 {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background: white;
+ border: 1px solid silver;
+ padding: 12vh;
+ height: 110px;
+}
+
+.reunidos2 {
+display: flex;
+ background: white;
+ border: 1px solid silver;
+align-items: center;
+ flex-direction: column;
+ margin-top: 12px;
+}
+
+.reunidos2 p {
+ color: grey;
+}
+
+.obtenha {
+ display: flex;
+ color: black;
+ justify-content: center;
+ align-items: center;
+}
+
+.google-play {
+ display: flex;
+ width: 85%;
+ margin: auto;
+}
+
+.app-store {
+ display: flex;
+ width: 85%;
+ margin: auto;
+}
+
+.apps {
+ display: flex;
+}
+
+.rodape img {
+ display: flex;
+ width: 70%;
+ margin: auto;
+ padding: auto;
+ margin-top: 90px;
+}
+
+
+/* mobile */
+
+@media(max-width: 900px) {
+
+ .principal {
+  width: auto;
+  height: auto;
+  display: block;
+ }
+
+ .tela-celular {
+  display: none;
+ }
+
+ .celular {
+  width: auto;
+  margin: auto;
+ }
+
+ .nome {
+  height: 30px; 
+ }
+
+ .login {
+ margin-top: 10px;
+ width: auto;
+ height: auto;
+}
+
+ .apps {
+ flex-direction: column;
+ width: auto;
+ }
+
+ .app-store {
+  width: 60%;
+ }
+
+ .google-play {
+  width: 60%;
+ }
+}
